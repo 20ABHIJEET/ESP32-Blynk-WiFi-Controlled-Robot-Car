@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID   "YOUR_TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
-#define BLYNK_AUTH_TOKEN    "l8Q1_FgYRJsQ7wfs4J1q2lKxh-moLuWh"
+#define BLYNK_AUTH_TOKEN    "BLYNK_AUTH_TOKEN"
 
 #define BLYNK_PRINT Serial
 
@@ -8,8 +8,8 @@
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 
-char ssid[] = "Asd";
-char pass[] = "00000000";
+char ssid[] = "ssid";
+char pass[] = "password";
 
 #define ENA 32
 #define IN1 14
